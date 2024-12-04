@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos de Animais Fofos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .catalogo-container {
+            margin: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .video-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 10px;
+            width: 250px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .video-item:hover {
+            transform: scale(1.05);
+        }
+
+        .video-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .video-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .video-button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Vídeos de Animais Fofos</h1>
+    </header>
+
+    <div class="catalogo-container">
+        <!-- Video 1 -->
+        <div class="video-item">
+            <div class="video-title">Gatinhos Brincando</div>
+            <a class="video-button" href="https://youtu.be/716GrILLJqY?si=GArLyCPb3gF0KDtI" target="_blank">Assistir</a>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="video-item">
+            <div class="video-title">Cachorros Saltando</div>
+            <a class="video-button" href="https://www.youtube.com/watch?v=qqzfDe9PiMg" target="_blank">Assistir</a>
+        </div>
+
+        <!-- Video 3 -->
+        <div class="video-item">
+            <div class="video-title">Coelhinhos Fofos</div>
+            <a class="video-button" href="https://www.youtube.com/shorts/z1QI6tcKXVs" target="_blank">Assistir</a>
+        </div>
+
+        <!-- Video 4 -->
+        <div class="video-item">
+            <div class="video-title">Lontras fofas</div>
+            <a class="video-button" href="https://www.youtube.com/shorts/MHK6gcbY7Kw" target="_blank">Assistir</a>
+        </div>
+
+        <!-- Video 5 -->
+        <div class="video-item">
+            <div class="video-title">Corvo dizendo hola</div>
+            <a class="video-button" href="https://www.youtube.com/watch?v=29S5BzGT3io" target="_blank">Assistir</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Catálogo de Vídeos de Animais Fofos &copy; 2024</p>
+    </footer>
+</body>
+</html>
